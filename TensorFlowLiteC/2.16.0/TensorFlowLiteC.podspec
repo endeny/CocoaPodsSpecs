@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386,x86_64,armv7,armv7s'
   }
 
-  s.default_subspec = 'Core'
+  # s.default_subspec = 'Core'
 
   s.subspec 'Core' do |core|
     core.vendored_frameworks = 'Frameworks/TensorFlowLiteC.xcframework'
