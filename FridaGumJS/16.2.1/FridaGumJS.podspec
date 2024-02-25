@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
 
   s.module_name = 'FridaGumJS'
   s.library = 'c++'
+  s.static_framework = true
 
   s.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386,x86_64,armv7,armv7s'
