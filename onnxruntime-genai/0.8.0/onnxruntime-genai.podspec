@@ -8,14 +8,14 @@ Pod::Spec.new do |s|
   s.summary          = 'Generative AI extensions for onnxruntime'
   s.description      = <<-DESC
 
-  Generative AI extensions for onnxruntime
+  onnxruntime-genai is a set of extensions for ONNX Runtime that provides support for generative AI models, including large language models (LLMs) and vision-language models (VLMs). It includes features such as quantization, model optimization, and support for various hardware accelerators.
                        DESC
 
   s.cocoapods_version = '>= 1.9.0'
   s.ios.deployment_target = '12.0'
   s.osx.deployment_target = '11.0'
 
-  s.module_name = 'onnxruntime-genai'
+  s.module_name = 'onnxruntime_genai'
   s.library = 'c++', 'resolv'
   s.static_framework = true
 
