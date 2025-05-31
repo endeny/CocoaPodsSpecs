@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'onnxruntime-genai'
   s.version          = '0.8.0'
-  s.authors          = 'Frida'
+  s.authors          = 'microsoft'
   s.license          = { :type => 'MIT' }
   s.homepage         = 'https://github.com/microsoft/onnxruntime-genai.git'
   s.source           = { :http => "https://github.com/endeny/CocoaPodsSpecs/releases/download/onnxruntime/onnxruntime-genai-ios-0.8.0.zip" }
