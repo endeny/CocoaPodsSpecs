@@ -12,8 +12,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.cocoapods_version = '>= 1.9.0'
-  s.ios.deployment_target = '12.0'
-  s.osx.deployment_target = '11.0'
+  s.ios.deployment_target = '15.0'
 
   s.module_name = 'OnnxruntimeGenai'
   s.library = 'c++', 'resolv'
@@ -27,9 +26,7 @@ Pod::Spec.new do |s|
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386,x86_64,armv7,armv7s'
   }
 
-  s.ios.vendored_frameworks = 'Frameworks/onnxruntime-genai.xcframework'
-  s.osx.vendored_frameworks = 'Frameworks/onnxruntime-genai.xcframework'
-  s.watchos.vendored_frameworks = 'Frameworks/onnxruntime-genai.xcframework'
-  s.tvos.vendored_frameworks = 'Frameworks/onnxruntime-genai.xcframework'
+  s.ios.vendored_frameworks = 'onnxruntime-genai.xcframework'
+  s.source_files = 'Headers/**/*.h'
 
 end
