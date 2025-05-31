@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
   s.osx.deployment_target = '11.0'
 
-  s.module_name = 'onnxruntime_genai'
+  s.module_name = 'OnnxruntimeGenai'
   s.library = 'c++', 'resolv'
   s.static_framework = true
 
