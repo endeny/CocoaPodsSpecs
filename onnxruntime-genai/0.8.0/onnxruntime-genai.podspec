@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'onnxruntime-genai'
-  s.version          = '0.8.1'
+  s.version          = '0.8.0'
   s.authors          = 'Frida'
   s.license          = { :type => 'MIT' }
   s.homepage         = 'https://github.com/microsoft/onnxruntime-genai.git'
