@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.authors          = 'Frida'
   s.license          = { :type => 'MIT' }
   s.homepage         = 'https://github.com/microsoft/onnxruntime-genai.git'
-  s.source           = { :http => "https://github.com/endeny/CocoaPodsSpecs/releases/download/onnxruntime/onnxruntime-genai-ios-0.8.1.zip" }
+  s.source           = { :http => "https://github.com/endeny/CocoaPodsSpecs/releases/download/onnxruntime/onnxruntime-genai-ios-0.8.0.zip" }
   s.summary          = 'Generative AI extensions for onnxruntime'
   s.description      = <<-DESC
 
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
   s.osx.deployment_target = '11.0'
 
-  s.module_name = 'onnxruntime_genai'
+  s.module_name = 'onnxruntime-genai'
   s.library = 'c++', 'resolv'
   s.static_framework = true
 
